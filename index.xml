@@ -1,16 +1,25 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>My New Hugo Site</title>
-        <link>https://ceris3s.github.io/</link>
-        <description>My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2023 21:44:10 &#43;0800</lastBuildDate>
-            <atom:link href="https://ceris3s.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>First</title>
-    <link>https://ceris3s.github.io/post/first/</link>
-    <pubDate>Mon, 06 Nov 2023 21:44:10 &#43;0800</pubDate><author>
-        <name>Author</name>
-    </author><guid>https://ceris3s.github.io/post/first/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://ceris3s.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Nov 2023 21:44:10 +0800</lastBuildDate>
+    <atom:link href="https://ceris3s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 使用</title>
+      <link>https://ceris3s.github.io/post/first/</link>
+      <pubDate>Mon, 06 Nov 2023 21:44:10 +0800</pubDate>
+      <guid>https://ceris3s.github.io/post/first/</guid>
+      <description>站点目录下，新建文章，执行：
+hugo new xxx.md 用 hugo server 在本地预览
+修改完成，确定要上传到GitHub上后，站点目录下执行：
+hugo 进行编译，没错误的话修改的内容就顺利同步到public下了，然后**cd public**下，执行提交命令：
+git add . git commit -m &amp;#34;&amp;#34; git push -u origin master 参考：
+https://jianzhnie.github.io/post/hugo_site/
+https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/</description>
+    </item>
+  </channel>
 </rss>
