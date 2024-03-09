@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>ceris3s&#39;s blog</title>
-        <link>https://ceris3s.github.io/</link>
-        <description>ceris3s&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 06 Nov 2023 21:44:10 &#43;0800</lastBuildDate>
-            <atom:link href="https://ceris3s.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>所有文章 - ceris3s&#39;s blog</title>
+        <link>https://ceris3s.github.io/posts/</link>
+        <description>所有文章 | ceris3s&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 06 Nov 2023 21:44:10 &#43;0800</lastBuildDate><atom:link href="https://ceris3s.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo 使用</title>
     <link>https://ceris3s.github.io/posts/first/</link>
     <pubDate>Mon, 06 Nov 2023 21:44:10 &#43;0800</pubDate><author>
